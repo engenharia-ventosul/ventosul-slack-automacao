@@ -1,0 +1,6 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+erp_inbox/*.xml
+manifest_gerado.yml
