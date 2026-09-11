@@ -1,0 +1,31 @@
+display_information:
+  name: Vento Sul OS
+  description: Cadastro e roteamento automático de Obras, Manutenções e Pagamentos
+  background_color: "#0b3d91"
+features:
+  bot_user:
+    display_name: ventosul-os
+    always_online: true
+  slash_commands:
+    - command: /ventosul-os
+      description: Abrir cadastro de Obra, Manutenção ou Pagamento
+      usage_hint: ""
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - commands
+      - chat:write
+      - channels:manage
+      - groups:write
+      - channels:read
+      - groups:read
+      - usergroups:read
+      - users:read
+      - im:write
+settings:
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
